@@ -1,0 +1,22 @@
+project:
+  type: manuscript
+
+manuscript:
+  article: Manuscript.qmd
+
+format:
+  html:
+    comments:
+      hypothesis: true
+  docx:
+    reference-doc: template.docx
+  jats: default
+
+  # (other formats)
+  # pdf: default
+
+execute:
+  freeze: true
+
+
+
